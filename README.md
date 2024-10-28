@@ -28,6 +28,8 @@ If you need to upgrade only the vulnerale dependency:
 e.g.: XXXXXXX@1.0.0 > del@5.1.0 > globby@10.0.2 > fast-glob@3.2.12 > micromatch@4.0.6 
 
 Here the micromatch@4.0.6 is vulnerable and you are only able to upgrade micromatch to v4.0.8
+
+If fast-glob@3.2.12 depends on "micromatch": "^4.0.7" (dependency version is used with carrot sign ^) you can use npm dedup
 ```sh
 npm i micromatch@4.0.8 --save-exact
 ```
