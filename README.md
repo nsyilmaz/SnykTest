@@ -23,6 +23,7 @@ or
 yarn install
 ```
 Now you can run snyk test command outside docker, since docker accessed and installed the packaged in the same directory.
+
 SCA:
 ```sh
 snyk test --all-projects
