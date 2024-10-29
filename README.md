@@ -84,6 +84,6 @@ snyk container test cgr.dev/chainguard/node:latest
 ```
 Also from Gitlab registry
 ```sh
-snyk container test registry.gitlab.com/Your-Org/application/payments:d283208c --username XXXXXXXX --password XXXXXXXXX
+snyk container test registry.gitlab.com/Your-Org/application/payments:d283208c --username XXXXX --password XXXXX
 ```
 
