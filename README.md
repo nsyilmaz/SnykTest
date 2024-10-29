@@ -73,4 +73,17 @@ Then, deactivate the virtual environment
 deactivate
 ```
 
+## Container Scanning
+Directly scan public docker hub images
+```sh
+snyk container test node:20.18
+```
+You can scan images from other registries
+```sh
+snyk container test cgr.dev/chainguard/node:latest
+```
+Also from Gitlab registry
+```sh
+snyk container test registry.gitlab.com/Your-Org/application/payments:d283208c --username XXXXXXXX --password XXXXXXXXX
+```
 
