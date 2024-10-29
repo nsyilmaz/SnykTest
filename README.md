@@ -1,4 +1,4 @@
-# Snyk Security Test
+# Snyk Test
 ## Node - npm - yarn Security Test
 Access to directory with specific version of Node via docker
 
