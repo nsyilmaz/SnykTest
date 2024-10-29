@@ -64,6 +64,10 @@ SCA:
 ```sh
 snyk test  --file=requirements.txt --package-manager=pip
 ```
+SAST:
+```sh
+snyk code test  --file=requirements.txt --package-manager=pip
+```
 Then, deactivate the virtual environment
 ```sh
 deactivate
