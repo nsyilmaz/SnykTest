@@ -44,6 +44,6 @@ snyk test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
 SAST:
 ```sh
-snyk code test --all-projects
+snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
 
