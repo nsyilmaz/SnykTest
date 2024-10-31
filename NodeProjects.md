@@ -40,7 +40,7 @@ Now you can run snyk test command outside docker, since docker accessed and inst
 
 SCA:
 ```sh
-snyk test --all-projects
+snyk test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
 SAST:
 ```sh
