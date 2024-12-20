@@ -40,3 +40,9 @@ machine gitlab.com
 login UserName
 password Gitlab-Private-Token
 ```
+4. Following command should be run to add private repo to Go env.
+```sh
+go env -w GOPRIVATE=https://gitlab.com/Your-Org/*
+```
+
+
