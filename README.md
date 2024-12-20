@@ -1,4 +1,6 @@
 # Snyk Test
+## [Go Security Test](GoProjects.md)
+
 ## [Node - npm - yarn Security Test](NodeProjects.md)
 
 
