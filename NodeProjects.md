@@ -14,7 +14,6 @@ If required you can change npm to specific version (inside docker container)
 ```sh
 npm install -g npm@9 
 ```
-!!!In some cases you may need .npmrc file to install from private repos or authenticated packageurls!!!
 
 Run package installation command inside docker container.
 ```sh
@@ -48,3 +47,9 @@ SAST:
 snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
 
+!!!In some cases you may need .npmrc file to install modules from private repos or authenticated packageurls!!!
+Copy following lines into `.npmrc` file.
+```sh
+@Your-Org:registry=https://gitlab.com/api/v4/packages/npm/
+//gitlab.com/api/v4/packages/npm/:_authToken=Your-Gitlab-Token
+```
