@@ -19,12 +19,12 @@ If modules used from private repo, authentication should be set in several confi
 ```sh
 git@gitlab.com:Your-Org/Your-Repo.git
 ```
-2. Following lines should be added to ~/.gitconfig file
+2. Following lines should be added to `~/.gitconfig` file
 ```sh
 [url "git@gitlab.com:"]
         insteadOf = https://gitlab.com
 ```
-3. Following lines should be added to ~/.netrc file
+3. Following lines should be added to `~/.netrc` file
 ```sh
 machine gitlab.com
 login UserName
