@@ -18,7 +18,7 @@ SAST:
 ```sh
 snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
-If modules used from private repo, authentication should be set in several configs.
+If modules used from private repos, authentication should be set in several configs.
 1. Repo should be cloned via SSH
 ```sh
 git@gitlab.com:Your-Org/Your-Repo.git
@@ -28,6 +28,7 @@ git@gitlab.com:Your-Org/Your-Repo.git
 git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"
 ```
 OR
+
 following lines should be added to `~/.gitconfig` file
 ```sh
 [url "git@gitlab.com:"]
