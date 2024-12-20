@@ -48,6 +48,7 @@ snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-pro
 ```
 
 !!!In some cases you may need .npmrc file to install modules from private repos or authenticated packageurls!!!
+
 Copy following lines into `.npmrc` file.
 ```sh
 @Your-Org:registry=https://gitlab.com/api/v4/packages/npm/
