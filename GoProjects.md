@@ -23,7 +23,12 @@ If modules used from private repo, authentication should be set in several confi
 ```sh
 git@gitlab.com:Your-Org/Your-Repo.git
 ```
-2. Following lines should be added to `~/.gitconfig` file
+2. Following command should be run
+```sh
+git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/"
+```
+OR
+following lines should be added to `~/.gitconfig` file
 ```sh
 [url "git@gitlab.com:"]
         insteadOf = https://gitlab.com
