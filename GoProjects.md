@@ -1,5 +1,5 @@
 # Snyk Test
-## Node - npm - yarn Security Test
+## Go Security Test
 Access to directory with specific version of Node via docker
 
 Node:18
