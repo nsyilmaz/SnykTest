@@ -47,7 +47,7 @@ SAST:
 snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
 
-!!!In some cases you may need .npmrc file to install modules from private repos or authenticated packageurls!!!
+!!!In some cases you may need .npmrc file located in the project directory to install modules from private repos or authenticated packageurls!!!
 
 Copy following lines into `.npmrc` file.
 ```sh
