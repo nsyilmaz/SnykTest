@@ -10,6 +10,10 @@ SCA:
 ```sh
 snyk test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
 ```
+```sh
+snyk test --file=go.mod
+```
+
 SAST:
 ```sh
 snyk code test --strict-out-of-sync=false --show-vulnerable-paths=all  --all-projects
