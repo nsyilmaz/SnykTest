@@ -14,7 +14,7 @@ If required you can change npm to specific version (inside docker container)
 ```sh
 npm install -g npm@9 
 ```
-!!!In some cases you may need .npmrc file to install from authenticated packageurls!!!
+!!!In some cases you may need .npmrc file to install from private repos or authenticated packageurls!!!
 
 Run package installation command inside docker container.
 ```sh
