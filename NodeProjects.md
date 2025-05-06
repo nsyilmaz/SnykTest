@@ -4,11 +4,11 @@ Access to directory with specific version of Node via docker
 
 Node:18
 ```sh
-docker run -ti  --name node-18  --rm  --workdir /app      -v $(pwd):/app/  -v ~/.ssh:/root/.ssh  node:18  /bin/sh
+docker run -ti  --name node-18  --rm  --workdir /app      -v $(pwd):/app/  -v ~/.ssh:/root/.ssh  node:18  /bin/bash
 ```
 Node:20
 ```sh
-docker run -ti  --name node-20-12-0 --rm  --workdir /app      -v $(pwd):/app/  -v ~/.ssh:/root/.ssh  node:20.12.0  /bin/sh
+docker run -ti  --name node-20-12-0 --rm  --workdir /app      -v $(pwd):/app/  -v ~/.ssh:/root/.ssh  node:20.12.0  /bin/bash
 ```
 If required you can change npm to specific version (inside docker container)
 ```sh
